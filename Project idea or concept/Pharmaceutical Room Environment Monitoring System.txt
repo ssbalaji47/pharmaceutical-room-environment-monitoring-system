@@ -1,0 +1,41 @@
+PROJECT TITLE:
+Pharmaceutical Room Environment Monitoring System 
+
+PROJECT DESCRIPTION:
+This project is designed to monitor temperature and humidity levels inside a pharmaceutical warehouse where medicines must be stored under controlled environmental conditions. Improper temperature or humidity can damage medicines and reduce their effectiveness. The system continuously measures environmental conditions and alerts staff when values go beyond the safe range.
+
+WORKING:
+A DHT22 sensor measures temperature and humidity in real time. The Arduino reads this data and displays it on a 16x2 LCD screen. If humidity exceeds the safe limit, a buzzer turns ON to alert the staff. LEDs are used to indicate temperature status. When the temperature is within the safe range (15°C–25°C), the green LED glows. If the temperature goes outside the safe range, the red LED glows. The system updates readings every few seconds for continuous monitoring.
+
+COMPONENTS USED:
+- Arduino Uno  
+- DHT22 Temperature and Humidity Sensor  
+- 16x2 LCD Display with I2C  
+- Buzzer  
+- Red LED  
+- Green LED  
+- Connecting wires  
+- Power supply  
+
+APPLICATIONS:
+- Pharmaceutical warehouses  
+- Hospitals  
+- Medical storage rooms  
+- Vaccine storage units  
+- Cold storage facilities  
+
+ADVANTAGES:
+- Low cost system  
+- Real-time monitoring  
+- Immediate alert using buzzer  
+- Protects medicines from damage  
+- Easy to install and use  
+
+FUTURE IMPROVEMENTS:
+- Send alerts to mobile using IoT  
+- Cloud data storage  
+- WiFi module integration  
+- Web dashboard monitoring  
+
+CONCLUSION:
+This IoT-based monitoring system helps maintain safe storage conditions for medicines by continuously tracking temperature and humidity. It provides alerts when conditions become unsafe, ensuring medicine quality and safety in pharmaceutical warehouses.
